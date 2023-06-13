@@ -4,7 +4,7 @@
 # function with three commands. These commands cause  
 # Karel to move forward one block, pick up a beeper
 # and then move ahead to the next corner.
-from karel.stanfordkarel import *
+from karel.stanfordkarel import * # alternative: https://pypi.org/project/stanfordkarel/
 
 def main():
   move()
